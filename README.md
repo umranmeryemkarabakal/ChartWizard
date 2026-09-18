@@ -8,24 +8,24 @@
   <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" alt="Seaborn" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 A PyQt5 GUI for quick chart exploration: load a CSV file, choose the X/Y columns and optional size, colour and marker columns, and draw a Seaborn scatter plot inside the window.
 
 **Quick start:** `pip install -r requirements.txt && python main.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 CSV dosyası yükleyip sütun seçerek grafik çizdiren PyQt5 arayüzü. Seaborn ile saçılım grafiği çizer; boyut, renk ve işaretçi için ayrı sütun seçilebilir. Örnek veri olarak penguen veri seti kullanılır.
 
-## ✨ Özellikler
+## Özellikler
 
 - Dosya seçme penceresiyle CSV yükleme
 - X, Y, boyut, renk ve işaretçi sütunu seçimi
 - Grafik ve lejantı pencere içinde gösterme
 - `01.ipynb`: veri temizleme adımları (`temizlenmis_penguins_size.csv` üretir)
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 ChartWizard/
